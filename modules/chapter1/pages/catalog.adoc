@@ -336,10 +336,10 @@ data:
         github:
           providerId:
             organization: "${GITHUB_ORGANIZATION}"
-            *catalogPath: '/rhdh-discovery/catalog-info.yaml'
+            <b>catalogPath: '/rhdh-discovery/catalog-info.yaml'
             filters:
               branch: 'main'
-              repository: '.\*'*
+              repository: '.*'</b>
             schedule:
               frequency:
               ...
