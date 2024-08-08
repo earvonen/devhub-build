@@ -339,7 +339,7 @@ data:
             *catalogPath: '/rhdh-discovery/catalog-info.yaml'
             filters:
               branch: 'main'
-              repository: '.*'*
+              repository: '.\*'*
             schedule:
               frequency:
               ...
